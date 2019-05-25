@@ -1,0 +1,22 @@
+{
+  "name": "@jozef.pridavok/parse-server-nodemailer-adapter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpridavok/parse-server-nodemailer-adapter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpridavok/parse-server-nodemailer-adapter/issues"
+  },
+  "homepage": "https://github.com/jpridavok/parse-server-nodemailer-adapter#readme",
+  "dependencies": {
+    "nodemailer": "^6.2.1"
+  }
+}
