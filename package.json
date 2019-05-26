@@ -1,5 +1,5 @@
 {
-  "name": "@jozef.pridavok/parse-server-nodemailer-adapter",
+  "name": "parse-nodemailer-adapter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jpridavok/parse-server-nodemailer-adapter.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jozef Prídavok",
   "bugs": {
     "url": "https://github.com/jpridavok/parse-server-nodemailer-adapter/issues"
   },
