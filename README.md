@@ -36,12 +36,12 @@ var api = new ParseServer({
   emailAdapter: {
     module: 'parse-nodemailer-adapter',
     options: {
-      from: 'noreply@casperise.com',
-      host: 'box.pridavok.sk',
+      from: 'noreply@mydomain.com',
+      host: 'mydomain.com',
       port: 587,
       secure: false,
-      user: 'noreply@casperise.com', 
-      password: 'zepYAXVSjQ6V'
+      user: 'noreply@mydomain.com', 
+      password: '*****'
     }      
   },
   filesAdapter: {
