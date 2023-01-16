@@ -15,7 +15,7 @@
     "url": "https://github.com/jpridavok/parse-server-nodemailer-adapter/issues"
   },
   "homepage": "https://github.com/jpridavok/parse-server-nodemailer-adapter#readme",
-  "dependencies": {
-    "nodemailer": "^6.2.1"
+  "peerDependencies": {
+    "nodemailer": "^6.9.0"
   }
 }
