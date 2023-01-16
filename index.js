@@ -8,9 +8,10 @@ var NodemailerAdapter = nodemailerOptions => {
   var sendMail = mail => {
 
     let message = {
-        from: nodemailerOptions.from,
+        from: mail.from ?? nodemailerOptions.from,
         to: mail.to, subject: mail.subject,
-        text: mail.text
+        text: mail.text,
+        html: mail.html
     };
     let smtpConfig = {
         host: nodemailerOptions.host,
